@@ -1,0 +1,104 @@
+:root{
+    /* Primary */
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url(/images/bg-mobile.svg) no-repeat;
+    background-size: cover;
+    background-color: var(--Violet);
+}
+
+.container{
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* header area */
+.logo{
+    width: 40%;
+}
+
+/* main area */
+main{
+    color: white;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/* .illus{
+    width: 600px;
+    height: 424px;
+} */
+
+.illus-img{
+    width: 100%;
+}
+
+.text{
+    line-height: 1.5;
+}
+
+.text p{
+    opacity: 0.7;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+button{
+    outline: none;
+    border: none;
+    padding: 1em 6em;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: var(--Violet);
+    background-color: white;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+}
+
+button:hover{
+    color: white;
+    background-color: var(--Soft-Magenta);
+}
+
+/* footer area */
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fab{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin: 4px;
+    cursor: pointer;
+    width: 36px;
+}
+
+.fab:hover{
+    color: var(--Soft-Magenta);
+    border: 2px solid var(--Soft-Magenta);
+}

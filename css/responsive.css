@@ -1,0 +1,39 @@
+@media screen and (min-width : 54em){
+    .container{
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+    main{
+        text-align: left;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .illus-img{
+        max-width: 35rem;
+    }
+
+    .text{
+        max-width: 32rem;
+        width: 100%;
+    }
+
+    .text h2{
+        font-size: 2rem;
+    }
+
+    button{
+        padding: 1em 4em;
+    }
+
+    footer{
+        justify-content: flex-end;
+    }
+}
